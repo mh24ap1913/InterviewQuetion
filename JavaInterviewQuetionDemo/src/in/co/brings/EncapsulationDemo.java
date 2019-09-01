@@ -2,7 +2,7 @@ package in.co.brings;
 
 public class EncapsulationDemo {
 	
-	private static int id;
+	private static int id;//private data member canot access out side
 	private static String name;
 	public static int getId() {
 		return id;
